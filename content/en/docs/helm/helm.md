@@ -19,6 +19,7 @@ Common actions for Helm:
 
 Environment variables:
 
+```
 +------------------+-----------------------------------------------------------------------------+
 | Name             | Description                                                                 |
 +------------------+-----------------------------------------------------------------------------+
@@ -29,6 +30,7 @@ Environment variables:
 | $HELM_NO_PLUGINS | disable plugins. Set HELM_NO_PLUGINS=1 to disable plugins.                  |
 | $KUBECONFIG      | set an alternative Kubernetes configuration file (default "~/.kube/config") |
 +------------------+-----------------------------------------------------------------------------+
+```
 
 Helm stores configuration based on the XDG base directory specification, so
 
@@ -38,6 +40,7 @@ Helm stores configuration based on the XDG base directory specification, so
 
 By default, the default directories depend on the Operating System. The defaults are listed below:
 
+```
 +------------------+---------------------------+--------------------------------+-------------------------+
 | Operating System | Cache Path                | Configuration Path             | Data Path               |
 +------------------+---------------------------+--------------------------------+-------------------------+
@@ -45,7 +48,7 @@ By default, the default directories depend on the Operating System. The defaults
 | macOS            | $HOME/Library/Caches/helm | $HOME/Library/Preferences/helm | $HOME/Library/helm      |
 | Windows          | %TEMP%\helm               | %APPDATA%\helm                 | %APPDATA%\helm          |
 +------------------+---------------------------+--------------------------------+-------------------------+
-
+```
 
 ### Options
 
